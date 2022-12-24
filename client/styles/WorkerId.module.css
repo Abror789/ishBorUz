@@ -1,0 +1,83 @@
+.workerId{
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 60vh;
+}
+.card_main{
+    margin: 50px 0;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 13px;
+    background-color: #fff;
+    overflow: hidden;
+    max-width: 60%;
+}
+.card_header{
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-bottom: 1px solid #27cc1c;
+}
+.card_header h3 span{
+    color: red;
+}
+.card_header button{
+    margin-left: 10px;
+    background-color: #32ea;
+    color: #fff;
+    border: 0;
+    font-weight: 700;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.card_body{
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.card_body ul{
+    padding: 0;
+}
+.card_body ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.card_body ul li strong{
+    margin-right: 7px;
+}
+.card_footer{
+    padding: 15px;
+}
+.card_body .left ul .date{
+    color: #6c757d;
+    font-weight: 600;
+}
+.card_body .right button{
+    color: #fff;
+    padding: 10px;
+    min-width: 100px;
+    background-color: #27cc1c;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+.card_footer a{
+    display: flex;
+    align-items: center;
+    border: 2px solid #27cc1c;
+    max-width: 150px;
+    padding: 7px;
+    border-radius: 8px;
+    color: #000;
+    cursor: pointer;
+    font-weight: 600;
+}
+.card_footer a img{
+    display: block;
+    margin-right: 5px!important;
+}

@@ -1,0 +1,108 @@
+.workers{
+    margin-top: 100px;
+    min-height: 60vh;
+}
+.workers h1{
+    font-size: 40px;
+    margin: 15px 0;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+.workers h1 span{
+    color: #6c757d;
+    text-transform: capitalize;
+}
+.worker_main{
+    margin-bottom: 100px;
+}
+.row{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card{
+    /* border: 1px solid #27cc1c; */
+    /* padding: 15px; */
+    border-radius: 13px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* border-bottom: 1px solid #27cc1c; */
+    overflow: hidden;
+}
+.card_header{
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+.card_header h3 span{
+    color: red;
+}
+.card_header h3{
+    font-size: 16px;
+}
+.card_body{
+    padding: 15px;
+}
+.card ul{
+    padding: 0;
+}
+.card ul li{
+    list-style: none;
+    margin-bottom: 5px;
+
+}
+.card ul li strong{
+    margin-right: 5px;
+}
+.card .end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.card .end a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #27cc1c;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 8px;
+}
+.card .end a:hover span{
+    visibility: visible;
+}
+.card .end a span{
+    margin-left: 2px;
+    visibility: hidden;
+}
+
+
+.card .end .date{
+    font-size: 14px;
+    color: grey;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.pagination button{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #27cc1c;
+    color: #27cc1c;
+}
+.pagination .activeLink button{
+    background-color: #27cc1c;
+    color: white;
+}

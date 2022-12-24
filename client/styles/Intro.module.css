@@ -1,0 +1,48 @@
+.intro{
+    overflow: hidden;
+    margin-top: 100px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.intro_text h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.intro_text span{
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+.intro_text .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 30px;
+    
+}
+
+.intro_text .row div{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 13px;
+    cursor: pointer;
+    text-align: center;
+    /* ; */
+    border: 1px solid #27cc1c;
+    transition: all 0.2s ease-in-out;
+}
+.intro_text .row div:hover{
+    /* transform: scale(1.02); */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.intro_text div h6{
+    font-size: 20px;
+    margin-bottom: 7px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.intro_text div p{
+    font-weight: 500;
+
+}

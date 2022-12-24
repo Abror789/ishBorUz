@@ -1,0 +1,58 @@
+.dashboard{
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    height: 100%;
+    min-height: 100vh;
+}
+.left{
+    box-shadow: 0 0 5px 0 #ddd;
+    min-width: 300px;
+    min-height: 100%;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+}
+.left button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.links a{
+    margin-bottom: 7px;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #27cc1c;
+    font-size: 18px;
+    font-weight: 600;
+}
+.activeLink{
+    background-color: #27cc1c;
+    color: white;
+}
+.top{
+    box-shadow: 0 0 5px 0 #ddd;
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+.top button{
+    display: block;
+    margin-left: auto;
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0;
+}

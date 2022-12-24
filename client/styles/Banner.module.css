@@ -1,0 +1,38 @@
+.banner{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+.left, .right{
+    /* border: 1px solid #27cc1c; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 13px;
+}
+.card_row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.card_row ul{
+    margin: 0;
+    padding: 10px;
+}
+.row h6{
+    font-size: 20px;
+    margin-bottom: 20px
+}
+
+.card_row ul li{
+   list-style:square;
+    margin-bottom: 5px;
+}
+.card_row ul li a{
+    font-size: 16px;
+    cursor: pointer;
+}

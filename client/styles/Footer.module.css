@@ -1,0 +1,43 @@
+.footer{
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid #27cc1c;
+    margin-top: 50px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.row ul{
+    margin: 0;
+    padding: 0;
+}
+.row ul li{
+    list-style: none;
+    margin-top: 3px;
+}
+.row ul li a{
+    font-weight: 500;
+    cursor: pointer;
+}
+.row h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.row p{
+    font-size: 16px;
+}
+.row h6{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.row div:last-child ul{
+    display: flex;
+}
+.row div:last-child ul li:last-child{
+    margin-left: 10px;
+}
